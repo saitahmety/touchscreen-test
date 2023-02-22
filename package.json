@@ -1,0 +1,88 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "bootstrap-switch-button-react": "^1.2.0",
+    "cross-env": "^7.0.3",
+    "i": "^0.3.6",
+    "js-combinatorics": "^0.5.5",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "node-sass": "^5.0.0",
+    "npm": "^6.14.9",
+    "qrcode.react": "^1.0.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-calendar": "^3.4.0",
+    "react-countdown-hook": "^1.0.3",
+    "react-dom": "^17.0.1",
+    "react-highlight-words": "^0.18.0",
+    "react-icons": "^4.6.0",
+    "react-loading-skeleton": "^2.2.0",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "use-debounce": "^7.0.1",
+    "uuid": "^8.3.2",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "sass": "node-sass src/assets/sass/index.scss -o public/css -w",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "build-development-ld": "cross-env REACT_APP_ENV=DEV REACT_APP_LIVE_DEBUG=TRUE react-scripts build",
+    "build-development": "cross-env REACT_APP_ENV=DEV react-scripts build",
+    "build-development-b": "cross-env REACT_APP_ENV=DEVELOPMENT_B react-scripts build",
+    "build-test": "cross-env REACT_APP_ENV=TEST react-scripts build",
+    "build-pre-production": "cross-env REACT_APP_ENV=PRE-PROD react-scripts build",
+    "build-production-pilot": "cross-env REACT_APP_ENV=PRODUCTION-PILOT react-scripts build",
+    "build-production": "cross-env REACT_APP_ENV=PRODUCTION react-scripts build",
+    "local": "cross-env REACT_APP_ENV=LOCAL react-scripts start",
+    "dev": "cross-env REACT_APP_ENV=DEV react-scripts start",
+    "dev-b": "cross-env REACT_APP_ENV=DEVELOPMENT_B react-scripts start",
+    "dev-ld": "cross-env REACT_APP_ENV=DEV REACT_APP_LIVE_DEBUG=TRUE react-scripts start",
+    "eject": "react-scripts eject",
+    "lint": "eslint \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "^2.2.1"
+  }
+}
