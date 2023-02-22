@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/touchscreen-test/static/js/main.cfe19f03.chunk.js",
+    "main.js.map": "/touchscreen-test/static/js/main.cfe19f03.chunk.js.map",
+    "runtime-main.js": "/touchscreen-test/static/js/runtime-main.3a1e65b0.js",
+    "runtime-main.js.map": "/touchscreen-test/static/js/runtime-main.3a1e65b0.js.map",
+    "static/js/2.1456c8c2.chunk.js": "/touchscreen-test/static/js/2.1456c8c2.chunk.js",
+    "static/js/2.1456c8c2.chunk.js.map": "/touchscreen-test/static/js/2.1456c8c2.chunk.js.map",
+    "index.html": "/touchscreen-test/index.html",
+    "static/js/2.1456c8c2.chunk.js.LICENSE.txt": "/touchscreen-test/static/js/2.1456c8c2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a1e65b0.js",
+    "static/js/2.1456c8c2.chunk.js",
+    "static/js/main.cfe19f03.chunk.js"
+  ]
+}
